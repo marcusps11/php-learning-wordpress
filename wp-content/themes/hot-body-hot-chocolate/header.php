@@ -18,7 +18,12 @@
           <li class="fc-menu__item"><a class="fc-menu__link" href="#home">Home</a></li>
           <li class="fc-menu__item"><a class="fc-menu__link" href="#services">Services</a></li>
           <li class="fc-menu__item"><a class="fc-menu__link" href="#contact">Contact</a></li>
-        </ul>
+          <?php 
+            wp_nav_menu( $args= array(
+              'menu_class' => 'fc-menu__items',
+              'theme_location' => 'primary'
+            ));
+          ?>
       </nav>
       <div class="fc-header__secondary-menu">
         <button class="fc-header__menu-toggle" type="button">
