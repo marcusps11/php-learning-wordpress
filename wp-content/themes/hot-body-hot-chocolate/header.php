@@ -3,7 +3,6 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Viga" rel="stylesheet">
 
   <?php wp_head(); ?>
 </head>
@@ -14,10 +13,6 @@
       <h1 class="fc-header__logo"><a class="fc-header__logo-link" href="/"><span>Hot body hot chocolate</span></a></h1>
 
       <nav class="fc-header__menu fc-menu">
-        <ul class="fc-menu__items">
-          <li class="fc-menu__item"><a class="fc-menu__link" href="#home">Home</a></li>
-          <li class="fc-menu__item"><a class="fc-menu__link" href="#services">Services</a></li>
-          <li class="fc-menu__item"><a class="fc-menu__link" href="#contact">Contact</a></li>
           <?php 
             wp_nav_menu( $args= array(
               'menu_class' => 'fc-menu__items',
