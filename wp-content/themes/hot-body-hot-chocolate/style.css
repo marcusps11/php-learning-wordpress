@@ -2241,3 +2241,7 @@ ul {
 li {
   list-style: none;
 }
+
+body {
+  color: black;
+}

@@ -17,4 +17,5 @@
       <button class="hb-home__hero-section-button">Buy now</button>
     </div>
   </div>
+  <div id="woo-commerce"></div>
 </div>

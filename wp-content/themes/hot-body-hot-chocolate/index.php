@@ -17,6 +17,8 @@
                     endwhile;
                   endif;
             ?>
+            <div id="woo-commerce">
+            </div>
         </main>
     </div>
 </div>
