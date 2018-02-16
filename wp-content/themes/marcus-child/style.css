@@ -33,6 +33,10 @@ html {
   /* 2 */
 }
 
+.storefront-sorting {
+  display: none;
+}
+
 /* Sections
    ========================================================================== */
 
@@ -1963,7 +1967,7 @@ tbody.collapse.in {
     top: 1.8rem;
   }
 }
-
+/*
 .fc-header__logo {
   position: relative;
   height: 62px;
@@ -2158,7 +2162,7 @@ tbody.collapse.in {
   .fc-header--secondary-menu__item {
     width: calc(100% / 3);
   }
-}
+} */
 
 .offer-header {
   text-align: center;
@@ -2259,4 +2263,5 @@ li {
 
 body {
   color: black;
+  background: #f3f3f3;
 }
